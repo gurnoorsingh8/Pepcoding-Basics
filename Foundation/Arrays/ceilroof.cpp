@@ -4,7 +4,7 @@ using namespace std;
 
 void ceilroof(vector<int>& arr, int num)
 {
-    int n = arr.length;
+    int n = arr.size();
     for(int i = 0; i < n; i++)
     {
         if(num > arr[i] && num < arr[i+1])
